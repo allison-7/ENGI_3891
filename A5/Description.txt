@@ -1,0 +1,5 @@
+Details
+
+In this assignment, you need to implement two classes: the Pumpkin class, objects of which represent pumpkins, and the Carriage class, objects of which can turn into pumpkins at the correct time. Turning carriages into pumpkins may require the judicious use of the currentDate() function that is declared in date.h but that should be implemented by test code rather than your code.
+
+The classes to implement are declared in Carriage.h and Pumpkin.h. You should implement your work in files called Carriage.cpp and Pumpkin.cpp and comment them to Subversion as usual.
