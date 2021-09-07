@@ -1,0 +1,5 @@
+Details
+
+This assignment will give you an opportunity to practice working with operators and the Big Three methods. In addition to the Pumpkin and Carriage classes of last week’s assignment, this week you must create a PumpkinPatch class to manage them both. PumpkinPatch objects will act as containers for heap-allocated Pumpkin objects, which they will own in the sense of memory management. That is to say, a PumpkinPatch is responsible for de-allocating its Pumpkin objects at the appropriate time(s).
+
+You should start with your implementation of last week’s assignment and then add definitions of the methods of PumpkinPatch in a file called PumpkinPatch.cpp. The declaration of the class is below:
