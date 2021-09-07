@@ -1,0 +1,21 @@
+Description
+
+Add more sophisticated methods to the Course and Student classes.
+
+Building on assignment 2 and assignment 3, this week’s assignment asks you to enhance the Course and Student classes with new functionality. I would suggest that you start by saving the following (clean) header files to a local assignments/4 directory and then running diff to see the changes since assignment 3. I will also summarize them here:
+
+    there is a new Student::ID type to represent student IDs,
+    the Student class now has operators to check equality,
+    Course::registerStudent should not let the same Student register twice,
+    the Course class now has an insertion (<<) operator that can throw an exception and
+    Course has more accessor methods (level and number).
+Notes
+Backwards compatibility
+
+As always, you can add whatever fields and methods you need to, but you cannot change or remove any fields or methods specified in the header files I provide. If the test code relies on, e.g., the existence of a capacity method, then you cannot remove the capacity method: that would break the test code. This principle (you can add things but not change or remove them) is called backwards compatiblity, and it is an important principle in practical software development.
+Testing
+
+As always, you are highly encouraged to test your own code. You can do this by writing your own test code or sharing test code with your peers. Some students have asked me, “how much testing is necessary?” My answer is that you should test until you are confident that your code works.
+Submission
+
+Submit all four files (Course.h, Course.cpp, Student.h and Student.cpp) to the assignments/4 directory of your personal folder in the Subversion repository. Please ensure that these files are both spelled with capital letters. If you submit with a lower-case name on Mac OS X or Windows and it won’t let you fix the spelling, you can fix things on the Lab or EN1040 computers.
