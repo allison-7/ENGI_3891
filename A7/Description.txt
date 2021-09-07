@@ -1,0 +1,20 @@
+Description
+
+Implement polymorphic code for an expression calculator.
+Details
+
+This week’s assignment requires you to implement subclasses of the Expression class as part of a calculator. An expression is anything that can be evaluated: a literal value, an operation or a value inside of parentheses. In this assignment, you need to implement subclasses of Expression and BinaryOperation to represent:
+
+    literal values (e.g., 7 or 4.2)
+    addition
+    subtraction
+    multiplication
+    division
+Then, as always, make sure that you understand the problem, choose appropriate representations, design algorithms and then — only then — write the code. I would suggest that you follow this process for the Expression::Literal method first, then the BinaryOperation::Add and other BinaryOperation methods one at a time.
+To complete this assignment, you must submit two files:
+
+Expression.h
+    declaration of the Expression and BinaryOperation classes
+Expression.cpp
+    your implementation of the above classes 
+
